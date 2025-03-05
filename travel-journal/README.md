@@ -1,12 +1,5 @@
-# React + Vite
+# Travel Journal Project: <a target="_blank" href="https://travel-journal-reactjs.vercel.app/">Visit Here</a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/514a49e2-5fc2-4ca9-b2fd-08de9c68a1b6)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a simple travel journal app that displays trip entries. Each entry includes an image, country name, Google Maps link, title, trip dates, and description. The Entry component receives data as props and displays it. The App component maps through journalData and passes the data to multiple Entry components. I learned how to pass and receive props in React, use the spread operator ({...data}) to pass all properties at once, and structure components for reusability.
